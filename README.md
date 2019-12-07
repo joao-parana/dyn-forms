@@ -42,6 +42,18 @@ echo "var alpha = require('alpha'); var beta = require('beta'); console.log(alph
 ```
 
 ```bash
+lerna bootstrap 
+```
+
+![](docs/lerna-bootstrap.png)
+
+E a arvore de diretório fica assim:
+
+![](docs/tree-final.png)
+
+Podemos executar localmente e ver o resultado.
+
+```bash
 node ./packages/usage/index.js 
 ```
 
